@@ -1,7 +1,7 @@
 // Define your questions and answers as an array of objects
 const questions = [
     {
-      question: "Question 1",
+      question: "Question 1:",
       choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
       answer: "Choice 2"
     },
