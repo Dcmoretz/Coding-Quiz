@@ -78,35 +78,35 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What provides the structure of a web application?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'HTML', correct: true },
+      { text: 'JavaScript', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'How can you add different style elements?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Cascading Style Sheets', correct: true },
+      { text: 'JavaScript', correct: true },
+      { text: 'Boot Strap', correct: true },
+      { text: 'HTML', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'What Language makes a page interactive?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Tailwind', correct: false },
+      { text: 'JavaScript', correct: true },
+      { text: 'HTML', correct: false },
+      { text: 'CSS', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Are you a software development student?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'no', correct: false },
+      { text: 'yes', correct: true }
     ]
   }
 ]
