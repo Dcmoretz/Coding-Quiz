@@ -3,33 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Quiz</title>
-  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Quiz App</title>
 </head>
 <body>
-  <header>
-    <h1>Code Quiz</h1>
-  </header>
-  <main>
-    <section id="start-screen">
-      <h2>Welcome to the Code Quiz!</h2>
-      <button id="start-btn">Start Quiz</button>
-    </section>
-    <section id="question-screen" class="hide">
-      <h2>Question:</h2>
-      <div id="choices">
-        <!-- Options will be dynamically added here -->
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
       </div>
-    </section>
-    <section id="end-screen" class="hide">
-      <h2>Quiz Complete!</h2>
-      <form id="score-form">
-        <label for="initials">Enter your initials:</label>
-        <input type="text" id="initials" maxlength="3">
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-  <script src="script.js"></script>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
 </body>
 </html>
